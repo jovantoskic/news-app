@@ -62,7 +62,6 @@ module.exports = {
         'jest/no-jasmine-globals': 'error',
         'jest/no-jest-import': 'error',
         'jest/no-large-snapshots': 'off',
-        'jest/no-test-callback': 'error',
         'jest/no-test-prefixes': 'error',
         'jest/no-test-return-statement': 'error',
         'jest/no-truthy-falsy': 'error',
