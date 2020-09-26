@@ -11,8 +11,8 @@ function App() {
     <main className="App">
       <Router>
         <Switch>
-          <Route exact path="/" component={TopNews} />
-          <Route path="/categories" component={Categories} />
+          <Route component={TopNews} exact path="/" />
+          <Route component={Categories} path="/categories" />
         </Switch>
       </Router>
     </main>

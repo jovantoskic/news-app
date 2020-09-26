@@ -6,7 +6,7 @@ import './Layout.scss';
 
 function Layout({ children }) {
   return (
-    <div className="app-container">
+    <div>
       <Header />
       <section className="content">{children}</section>
     </div>

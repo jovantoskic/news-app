@@ -1,0 +1,18 @@
+@import '../../../styles/settings';
+@import '../../../styles/heplers';
+
+.countries-container {
+  .country {
+    width: 50%;
+    height: 100%;
+    @include alignMe(center, center);
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  .country:first-child {
+    border-left: 1px solid $lightGrey;
+  }
+  .country:not(:last-child) {
+    border-right: 1px solid $lightGrey;
+  }
+}

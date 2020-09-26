@@ -1,0 +1,21 @@
+@import '../../../styles/settings';
+@import '../../../styles/heplers';
+
+.search-container {
+  @include alignMe(center, center);
+  .search-button {
+    width: 27%;
+    height: 100%;
+    border-right: 1px solid $lightGrey;
+    font-size: $font-size-s;
+    font-family: $font-family;
+    color: $main;
+    cursor: pointer;
+  }
+  .search-field {
+    width: 73%;
+    height: 100%;
+    outline: none;
+    border: none;
+  }
+}
