@@ -1,0 +1,25 @@
+@import '../../../styles/settings';
+@import '../../../styles/heplers';
+
+.news-box-container {
+  @include alignMe(space-between, flex-start);
+  flex-direction: column;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid $lightGrey;
+
+  .news-box-content {
+    @include alignMe(space-between, flex-start);
+    flex-direction: column;
+    font-size: $font-size-s;
+    .content-item {
+      margin-bottom: 0.6rem;
+    }
+    .news-box-img {
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+      border-radius: 5px;
+    }
+  }
+}

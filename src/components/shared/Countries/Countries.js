@@ -6,8 +6,8 @@ import './Countries.scss';
 function Countries({ countries }) {
   return (
     <div className="countries-container header-item">
-      {countries.map(country => (
-        <button key={country.state} className="country" type="button">
+      {countries.map((country, index) => (
+        <button key={country.state} type="button" className="country">
           {country.state}
         </button>
       ))}
